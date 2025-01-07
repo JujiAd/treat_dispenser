@@ -13,6 +13,7 @@ This was my first Arduino project and I relied heavily on the guides provided by
 All of the following links are suggestions - any equivalent piece of hardware will suffice. I tried to provide a link for all major components for the sake of providing a comprehensive resource, but any hardware you have lying around will do just as well.
 
 ## Electronics
+![Circuit Diagram](https://github.com/JujiAd/treat_dispenser/raw/main/design/v0/resources/circuit.svg)
 
 ESP32 Dev Board - https://www.amazon.com/dp/B08D5ZD528?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1<br>
 ULN2003 5V Stepper Motor and Driver Board - https://www.amazon.com/dp/B0BG4ZCFLQ?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1<br>
