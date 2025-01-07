@@ -6,6 +6,41 @@ This project was created with the goal of integrating the functionality into a H
 
 This was my first Arduino project and I relied heavily on the guides provided by [Random Nerd Tutorials](https://randomnerdtutorials.com/), specifically [ESP32 with Stepper Motor (28BYJ-48 and ULN2003 Motor Driver)](https://randomnerdtutorials.com/esp32-stepper-motor-28byj-48-uln2003/). If you would like to fork this project and are looking for inspiration, they provide a huge resource of proof-of-concept projects utilizing the ESP32 Dev Board to facilitate wifi-enabled projects.
 
+# 3D model
+
+```stl
+solid cube_corner
+  facet normal 0.0 -1.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 1.0 0.0 0.0
+      vertex 0.0 0.0 1.0
+    endloop
+  endfacet
+  facet normal 0.0 0.0 -1.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 0.0 1.0 0.0
+      vertex 1.0 0.0 0.0
+    endloop
+  endfacet
+  facet normal -1.0 0.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 0.0 0.0 1.0
+      vertex 0.0 1.0 0.0
+    endloop
+  endfacet
+  facet normal 0.577 0.577 0.577
+    outer loop
+      vertex 1.0 0.0 0.0
+      vertex 0.0 1.0 0.0
+      vertex 0.0 0.0 1.0
+    endloop
+  endfacet
+endsolid
+```
+
 # Necessary Materials
 
 All of the following links are suggestions - any equivalent piece of hardware will suffice. I tried to provide a link for all major components for the sake of providing a comprehensive resource, but any hardware you have lying around will do just as well.
