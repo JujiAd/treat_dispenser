@@ -8,7 +8,7 @@ This was my first Arduino project and I relied heavily on the guides provided by
 
 # 3D model
 
-![Treat Dispenser](https://github.com/JujiAd/treat_dispenser/tree/main/design/v0/resources/full_body.PNG?raw=true)
+![Treat Dispenser](https://github.com/JujiAd/treat_dispenser/tree/main/design/v0/resources/full_body.JPG?raw=true)
 
 # Necessary Materials
 
